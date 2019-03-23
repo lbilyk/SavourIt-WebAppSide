@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="css/pnotify.custom.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<section style="background:#efefe9;">
+    <div class="container">
+        <div class="row">
+            <div class="board">
+                <div class="board-inner">
+                    <ul class="nav nav-tabs text-center" style="height:64px" id="myTab">
+                        <div class="liner"></div>
+                        <li class="two"><a  href="#inventory" data-toggle="tab" title="inventory">
+                     <span class="round-tabs">
+                         <i class="glyphicon glyphicon-user"></i>
+                     </span>
+                        </a>
+                        </li>
+                        <li class="one active">
+                            <a href="#home" data-toggle="tab" title="home">
+                      <span class="round-tabs home ">
+                              <i class="glyphicon glyphicon-home"></i>
+                      </span>
+                            </a>
+                        </li>
+                        <li class="three"><a href="#recipe" data-toggle="tab" title="recipe">
+                     <span class="round-tabs">
+                          <i class="glyphicon glyphicon-gift"></i>
+                     </span> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="tab-content">
+
+    <div class="tab-pane fade in" id="inventory">
+        <container>
+            <h1 class="head text-center">Inventory<span style="color:#f48260;"></span></h1>
+            <div class="space-block"></div>
+            <div class="card-body item-cards">
+                <ul class="list-group text-center" id="inventoryList">
+                </ul>
+            </div>
+        </container>
+    </div>
+    <div class="tab-pane fade active in" id="home">
+        <container>
+            <h1 class="head text-center">Savour.It<span style="color:#f48260;"></span></h1>
+            <div class="space-block"></div>
+            <div class="card-body item-cards">
+                <ul class="list-group text-center" id="homeRecipeList">
+                </ul>
+            </div>
+        </container>
+    </div>
+    <div class="tab-pane fade" id="recipe">
+        <container>
+            <h1 class="head text-center">Recipes<span style="color:#f48260;"></span></h1>
+            <div class="space-block"></div>
+            <div class="card-body item-cards">
+                <ul class="list-group text-center" id="recipeList">
+                </ul>
+            </div>
+        </container>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<script src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/pnotify.custom.js"></script>
+<script src="js/index.js"></script>
+</body>
+<div id="itemModalBox"></div>
+
+</html>

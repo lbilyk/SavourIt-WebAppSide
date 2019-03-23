@@ -1,0 +1,150 @@
+
+
+html {
+
+}
+body {}
+
+.head {
+    font-size: 64pt;
+}
+i {
+    height: 64px;
+    width: 64px;
+}
+.glyphicon {
+    font-size: 50px;
+}
+.one {
+    width: 33%;
+}
+.two {
+    width: 33%;
+}
+.three {
+    width: 33%;
+}
+.list-group-item {
+    width: 100%;
+}
+.item-cards{
+    width: 75%;
+position: absolute;
+    left: 12.5%;
+}
+.space-block{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.inventory-item{
+    text-align: left;
+
+}
+
+.item-main{
+    display:inline-block;
+    font-size: 32pt;
+}
+
+.item-sub {
+    display:inline-block;
+    font-size: 24pt;
+    margin-top: 12px;
+}
+#itemModal {
+    position: absolute;
+    top:25%;
+}
+
+.modal-title{
+    font-size: 64pt;
+    display:inline-block;
+}
+.close{
+    font-size: 64pt;
+    display:inline-block;
+}
+.delete {
+    font-size: 32pt;
+}
+.find-recipe {
+    font-size: 32pt;
+}
+.modal-item {
+    font-size: 32pt;
+    -webkit-transform: translate3d(0,0,0);
+}
+.modal-dialog {
+    width: 75%;
+}
+.modal-backdrop {
+    background-color: transparent;
+}
+.modal-footer {
+    -webkit-transform: translate3d(0,0,0);
+
+}
+.deleteButton {
+    display:inline-block;
+    position: absolute;
+    left: 16px;
+}
+.getRecipeButton {
+    display:inline-block;
+    right: 0;
+}
+
+#recipeList {
+    left: 50%;
+    width: 75%;
+}
+
+.recipe-card {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    display:inline-block;
+}
+.card-img-top {
+    display:inline-block;
+    width: 480px;
+    height: 480px;
+    margin-left: 12.5%;
+}
+
+.list-group {
+    display:inline-block;
+    text-align: center;
+    left: 100%;
+}
+
+.recipe-card-title {
+
+    font-size: 48px;
+    display:inline-block;
+    text-align: center;
+    margin-left: 12.5%;
+}
+.recipe-card-text {
+
+    font-size: 32px;
+    display:inline-block;
+    text-align: center;
+    margin-left: 12.5%;
+}
+
+.recipe-card-home {
+    margin-left: -17.5%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.recipe-card-button {
+    font-size: 32px;
+    text-align: center;
+    margin-left: 17.5%;
+}
+.home-message{
+    font-size: 48px;
+    }
